@@ -1,0 +1,32 @@
+# jieba 0.42.1 — cProfile op=cut_default iters=20
+# machine: Apple M5 Max
+
+         47855362 function calls in 11.357 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.012    0.012   11.357   11.357 /Users/matt/code/jieba-rs/bench/cpu_profile.py:35(run)
+       20    0.153    0.008   11.345    0.567 /Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356(lcut)
+  2055960    0.583    0.000   11.192    0.000 /Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289(cut)
+  1954160    0.672    0.000   10.320    0.000 /Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249(__cut_DAG)
+  1072880    0.463    0.000    4.631    0.000 /Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85(cut)
+  1072500    0.283    0.000    3.851    0.000 /Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59(__cut)
+   321080    2.154    0.000    3.547    0.000 /Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:37(viterbi)
+   394280    0.640    0.000    2.803    0.000 /Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:172(calc)
+  5547260    0.980    0.000    2.646    0.000 {built-in method builtins.max}
+   394280    1.842    0.000    2.091    0.000 /Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:180(get_DAG)
+  5790000    1.043    0.000    1.502    0.000 /Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:177(<genexpr>)
+ 13070600    1.136    0.000    1.136    0.000 {method 'get' of 'dict' objects}
+  2203380    0.307    0.000    0.307    0.000 {method 'match' of 're.Pattern' objects}
+  3966620    0.252    0.000    0.252    0.000 {method 'append' of 'list' objects}
+  1357740    0.234    0.000    0.234    0.000 {method 'split' of 're.Pattern' objects}
+  3680340    0.216    0.000    0.216    0.000 {built-in method math.log}
+  2974340    0.167    0.000    0.167    0.000 {built-in method builtins.len}
+   963240    0.131    0.000    0.164    0.000 /Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:54(<genexpr>)
+   321200    0.045    0.000    0.065    0.000 /Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/_compat.py:76(strdecode)
+   394280    0.026    0.000    0.026    0.000 /Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:168(check_initialized)
+   321200    0.020    0.000    0.020    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

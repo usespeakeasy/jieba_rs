@@ -1,0 +1,25 @@
+{
+  "library": "jieba-rs",
+  "version": "0.42.1",
+  "module_path": "/Users/matt/code/jieba-rs/bench/candidate/.venv/lib/python3.14/site-packages/jieba/__init__.py",
+  "machine": {
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6",
+    "processor": "arm",
+    "cpu_count": 18,
+    "cpu_brand": "Apple M5 Max"
+  },
+  "peak_rss_bytes": {
+    "floor": 23887872,
+    "import": 59441152,
+    "init": 230309888,
+    "cut_default": 259686400,
+    "tokenize": 273530880,
+    "posseg": 328073216,
+    "tfidf": 340279296,
+    "textrank": 360054784
+  },
+  "interpreter_floor_bytes": 23887872,
+  "post_init_delta_bytes": 206422016,
+  "cut_default_delta_bytes": 29376512
+}

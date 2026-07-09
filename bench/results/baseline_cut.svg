@@ -1,0 +1,1243 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="504"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+    .func_g:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+</style>
+<svg class="func_g" x="0.0" y="216" width="1198.9984282530943" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 100.00% (1 1 0.012004456 11.356775417000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="192" width="1197.7299935255332" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 99.89% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="168" width="1181.5526906013595" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 98.55% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="144" width="1089.4529475659706" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 90.87% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="120" width="295.1350245913302" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:172:calc 24.68% (394280 394280 0.639614794 2.8026194770000004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">calc</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="96" width="1.2538067659865528" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.19% (394280 394280 0.021330009 0.021330009)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="2.253806765986553" y="96" width="222.58843256872564" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.max&gt; 18.63% (2503940 2503940 0.613866063 2.116039117)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.max&gt;</text>
+</g></svg>
+<svg class="func_g" x="2.253806765986553" y="72" width="142.07657426091976" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:177:&lt;genexpr&gt; 11.92% (5219171 5219171 0.940414656933487 1.354075541315859)</title>
+    <rect height="100%" width="100%" fill="rgb(99, 206, 42)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;genexpr&gt;</text>
+</g></svg>
+<svg class="func_g" x="2.253806765986553" y="48" width="17.08984932223405" height="23"><g>
+    <title>~:0:&lt;built-in method math.log&gt; 1.51% (2962091 2962091 0.17120218763874204 0.17120218763874204)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method math.log&gt;</text>
+</g></svg>
+<svg class="func_g" x="20.3436560882206" y="48" width="24.619072696737955" height="23"><g>
+    <title>~:0:&lt;method 'get' of 'dict' objects&gt; 2.13% (2962091 2962091 0.2424586967436299 0.2424586967436299)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'get' of 'dict' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="145.3303810269063" y="72" width="14.648524860598801" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:54:&lt;genexpr&gt; 1.30% (868275 868275 0.11850200048396255 0.14809751268414095)</title>
+    <rect height="100%" width="100%" fill="rgb(44, 255, 210)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;genexpr&gt;</text>
+</g></svg>
+<svg class="func_g" x="145.3303810269063" y="48" width="2.1271700654040817" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.26% (578850 578850 0.029595512200178406 0.029595512200178406)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="225.8422393347122" y="96" width="1.7087467153170888" height="23"><g>
+    <title>~:0:&lt;built-in method math.log&gt; 0.23% (394280 394280 0.025635557000000003 0.025635557000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method math.log&gt;</text>
+</g></svg>
+<svg class="func_g" x="296.1350245913302" y="120" width="219.95101611303048" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:180:get_DAG 18.41% (394280 394280 1.8420170200000001 2.091078629)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">get_DAG</text>
+</g></svg>
+<svg class="func_g" x="296.1350245913302" y="96" width="1.7448287410888117" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:168:check_initialized 0.23% (394280 394280 0.025977037 0.025977037)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">check_initialized</text>
+</g></svg>
+<svg class="func_g" x="298.87985333241903" y="96" width="1.3250076932916564" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.19% (394280 394280 0.022003854 0.022003854)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="301.20486102571067" y="96" width="20.246924121683872" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'list' objects&gt; 1.77% (3286060 3286060 0.20108071800000002 0.20108071800000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="517.0860407043606" y="120" width="488.3276840301103" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 40.78% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="517.0860407043606" y="96" width="5.882941217560698" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/_compat.py:76:strdecode 0.57% (321180 321180 0.045403359000000004 0.0651401)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">strdecode</text>
+</g></svg>
+<svg class="func_g" x="517.0860407043606" y="72" width="1.0854562416886089" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 0.17% (321161 321161 0.019736741000000002 0.019736741000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(85, 218, 84)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="523.9689819219213" y="96" width="405.9361445597431" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59:__cut 33.91% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut</text>
+</g></svg>
+<svg class="func_g" x="523.9689819219213" y="72" width="373.8317756116932" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:37:viterbi 31.24% (321080 321080 2.1536334360000002 3.5474048920000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">viterbi</text>
+</g></svg>
+<svg class="func_g" x="523.9689819219213" y="48" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.15% (321080 321080 0.016842477 0.016842477)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="525.7486196435264" y="48" width="54.99854100044343" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.max&gt; 4.67% (3043320 3043320 0.365674553 0.529969739)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.max&gt;</text>
+</g></svg>
+<svg class="func_g" x="525.7486196435264" y="24" width="14.648524860598798" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:177:&lt;genexpr&gt; 1.30% (570829 570829 0.10285472806651305 0.14809751268414093)</title>
+    <rect height="100%" width="100%" fill="rgb(99, 206, 42)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;genexpr&gt;</text>
+</g></svg>
+<svg class="func_g" x="525.7486196435264" y="0" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method math.log&gt; 0.16% (323969 323969 0.018724670361257873 0.018724670361257873)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method math.log&gt;</text>
+</g></svg>
+<svg class="func_g" x="527.7271367998515" y="0" width="1.802000943000595" height="23"><g>
+    <title>~:0:&lt;method 'get' of 'dict' objects&gt; 0.23% (323969 323969 0.026518114256370004 0.026518114256370004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'get' of 'dict' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="541.3971445041251" y="24" width="1" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:54:&lt;genexpr&gt; 0.14% (94965 94965 0.01296076251603746 0.01619767331585905)</title>
+    <rect height="100%" width="100%" fill="rgb(44, 255, 210)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;genexpr&gt;</text>
+</g></svg>
+<svg class="func_g" x="581.7471606439697" y="48" width="4.331996633120537" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'list' objects&gt; 0.44% (680560 680560 0.050461973 0.050461973)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="587.0791572770902" y="48" width="83.16081444008756" height="23"><g>
+    <title>~:0:&lt;method 'get' of 'dict' objects&gt; 7.01% (9451040 9451040 0.796497267 0.796497267)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'get' of 'dict' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="898.8007575336145" y="72" width="1.2196929371635528" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.18% (321080 321080 0.021007156000000003 0.021007156000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="930.9051264816644" y="96" width="12.356241869399485" height="23"><g>
+    <title>~:0:&lt;method 'match' of 're.Pattern' objects&gt; 1.11% (963340 963340 0.12640336500000002 0.12640336500000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'match' of 're.Pattern' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="944.2613683510639" y="96" width="12.2684037765624" height="23"><g>
+    <title>~:0:&lt;method 'split' of 're.Pattern' objects&gt; 1.11% (963440 963440 0.125572066 0.125572066)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'split' of 're.Pattern' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1006.413724734471" y="120" width="4.567185126640709" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.46% (901460 901460 0.052687795 0.052687795)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="1011.9809098611117" y="120" width="6.489564094523829" height="23"><g>
+    <title>~:0:&lt;method 'get' of 'dict' objects&gt; 0.62% (333500 333500 0.070881174 0.070881174)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'get' of 'dict' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1090.4538548997978" y="144" width="18.035446956547535" height="23"><g>
+    <title>~:0:&lt;method 'match' of 're.Pattern' objects&gt; 1.59% (1240040 1240040 0.180151316 0.180151316)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'match' of 're.Pattern' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1109.4893018563453" y="144" width="10.427899033358324" height="23"><g>
+    <title>~:0:&lt;method 'split' of 're.Pattern' objects&gt; 0.95% (394300 394300 0.108153544 0.108153544)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'split' of 're.Pattern' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="264" width="1.7448287410888117" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:168:check_initialized 0.23% (394280 394280 0.025977037 0.025977037)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">check_initialized</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="288" width="1.7448287410888117" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:180:get_DAG 0.23% (394280 394280 0.025977037 0.025977037)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">get_DAG</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="312" width="1.7448287410888117" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 16.22% (394280 394280 1.8420170200000001 2.091078629)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="336" width="1.7448287410888117" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="360" width="1.7448287410888117" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="384" width="1.7448287410888117" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="2.7448287410888117" y="264" width="66.5840385413009" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:172:calc 5.63% (394280 394280 0.639614794 2.8026194770000004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">calc</text>
+</g></svg>
+<svg class="func_g" x="2.7448287410888117" y="288" width="66.5840385413009" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 5.63% (394280 394280 0.639614794 2.8026194770000004)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="2.7448287410888117" y="312" width="66.5840385413009" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="2.7448287410888117" y="336" width="66.5840385413009" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="2.7448287410888117" y="360" width="66.5840385413009" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="70.32886728238971" y="264" width="109.23565900322076" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:177:&lt;genexpr&gt; 9.19% (5790000 5790000 1.043269385 1.502173054)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;genexpr&gt;</text>
+</g></svg>
+<svg class="func_g" x="70.32886728238971" y="288" width="109.23565900322076" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.max&gt; 9.19% (5790000 5790000 1.043269385 1.502173054)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.max&gt;</text>
+</g></svg>
+<svg class="func_g" x="70.32886728238971" y="312" width="87.15653281361823" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:172:calc 5.41% (2503940 2503940 0.613866063 2.116039117)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">calc</text>
+</g></svg>
+<svg class="func_g" x="70.32886728238971" y="336" width="87.15653281361821" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 5.63% (394280 394280 0.639614794 2.8026194770000004)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="70.32886728238971" y="360" width="87.15653281361821" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="70.32886728238971" y="384" width="87.15653281361821" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="70.32886728238971" y="408" width="87.15653281361821" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="158.48540009600794" y="312" width="21.079126189602565" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:37:viterbi 3.22% (3043320 3043320 0.365674553 0.529969739)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">viterbi</text>
+</g></svg>
+<svg class="func_g" x="158.48540009600794" y="336" width="21.079126189602565" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59:__cut 18.96% (321080 321080 2.1536334360000002 3.5474048920000003)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut</text>
+</g></svg>
+<svg class="func_g" x="158.48540009600794" y="360" width="21.079126189602565" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 2.49% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="158.48540009600794" y="384" width="21.079126189602565" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="158.48540009600794" y="408" width="21.079126189602565" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="158.48540009600794" y="432" width="21.079126189602565" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="158.48540009600794" y="456" width="21.079126189602565" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="180.5645262856105" y="264" width="193.6342555569661" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:180:get_DAG 16.22% (394280 394280 1.8420170200000001 2.091078629)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">get_DAG</text>
+</g></svg>
+<svg class="func_g" x="180.5645262856105" y="288" width="193.6342555569661" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 16.22% (394280 394280 1.8420170200000001 2.091078629)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="180.5645262856105" y="312" width="193.63425555696614" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="180.5645262856105" y="336" width="193.63425555696614" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="180.5645262856105" y="360" width="193.63425555696614" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="375.1987818425766" y="264" width="69.9824736103351" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="375.1987818425766" y="288" width="69.98247361033512" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="375.1987818425766" y="312" width="69.98247361033512" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="375.1987818425766" y="336" width="69.98247361033512" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="446.1812554529117" y="264" width="60.63548971165593" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="446.1812554529117" y="288" width="60.63548971165593" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="446.1812554529117" y="312" width="60.63548971165593" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="507.8167451645677" y="264" width="15.17730292417378" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="507.8167451645677" y="288" width="15.17730292417378" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="523.9940480887415" y="264" width="3.7981369206390205" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/_compat.py:76:strdecode 0.40% (321200 321200 0.045409529000000004 0.06514868700000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">strdecode</text>
+</g></svg>
+<svg class="func_g" x="523.9946805128722" y="288" width="3.7975044965083926" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 0.40% (321180 321180 0.045403359000000004 0.0651401)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="523.9946805128722" y="312" width="3.7975044965083926" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="523.9946805128722" y="336" width="3.7975044965083926" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="523.9946805128722" y="360" width="3.7975044965083926" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="523.9946805128722" y="384" width="3.7975044965083926" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="528.7921850093804" y="264" width="226.56078581643672" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:37:viterbi 18.96% (321080 321080 2.1536334360000002 3.5474048920000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">viterbi</text>
+</g></svg>
+<svg class="func_g" x="528.7921850093804" y="288" width="226.56078581643672" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59:__cut 18.96% (321080 321080 2.1536334360000002 3.5474048920000003)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut</text>
+</g></svg>
+<svg class="func_g" x="528.7921850093804" y="312" width="226.56078581643672" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 2.49% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="528.7921850093804" y="336" width="226.56078581643672" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="528.7921850093804" y="360" width="226.56078581643672" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="528.7921850093804" y="384" width="226.56078581643672" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="528.7921850093804" y="408" width="226.56078581643672" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="756.3529708258172" y="264" width="12.890836366955432" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:54:&lt;genexpr&gt; 1.16% (963240 963240 0.131462763 0.164295186)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;genexpr&gt;</text>
+</g></svg>
+<svg class="func_g" x="756.3529708258172" y="288" width="12.890836366955432" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.max&gt; 1.16% (963240 963240 0.131462763 0.164295186)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.max&gt;</text>
+</g></svg>
+<svg class="func_g" x="756.3529708258172" y="312" width="10.108637468718987" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:172:calc 5.41% (2503940 2503940 0.613866063 2.116039117)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">calc</text>
+</g></svg>
+<svg class="func_g" x="756.3529708258172" y="336" width="10.108637468718985" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 5.63% (394280 394280 0.639614794 2.8026194770000004)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="756.3529708258172" y="360" width="10.108637468718985" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="756.3529708258172" y="384" width="10.108637468718985" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="756.3529708258172" y="408" width="10.108637468718987" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="767.4616082945362" y="312" width="1.7821988982364458" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:37:viterbi 3.22% (3043320 3043320 0.365674553 0.529969739)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">viterbi</text>
+</g></svg>
+<svg class="func_g" x="767.4616082945362" y="336" width="1.7821988982364458" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59:__cut 18.96% (321080 321080 2.1536334360000002 3.5474048920000003)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut</text>
+</g></svg>
+<svg class="func_g" x="767.4616082945362" y="360" width="1.7821988982364458" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 2.49% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="767.4616082945362" y="384" width="1.7821988982364458" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="767.4616082945362" y="408" width="1.7821988982364458" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="767.4616082945362" y="432" width="1.7821988982364458" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="767.4616082945362" y="456" width="1.7821988982364458" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="770.2438071927727" y="264" width="28.884676010886405" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59:__cut 2.49% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut</text>
+</g></svg>
+<svg class="func_g" x="770.2438071927727" y="288" width="28.884676010886405" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 2.49% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="770.2438071927727" y="312" width="28.884676010886405" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="770.2438071927727" y="336" width="28.884676010886405" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="770.2438071927727" y="360" width="28.884676010886405" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="770.2438071927727" y="384" width="28.884676010886405" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="800.1284832036591" y="264" width="47.88395260684452" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="800.1284832036591" y="288" width="47.88395260684452" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="800.1284832036591" y="312" width="47.88395260684452" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="800.1284832036591" y="336" width="47.88395260684452" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="800.1284832036591" y="360" width="47.88395260684452" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="849.0124358105037" y="264" width="1" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 0.11% (1 1 0.012004456 11.356775417000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="850.2808705380646" y="264" width="1.0857116307488472" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 0.17% (321200 321200 0.019739158 0.019739158)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="850.2808705380646" y="288" width="1.0857116307488472" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/_compat.py:76:strdecode 0.17% (321200 321200 0.019739158 0.019739158)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">strdecode</text>
+</g></svg>
+<svg class="func_g" x="850.2811454477612" y="312" width="1.085436721052306" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 0.40% (321180 321180 0.045403359000000004 0.0651401)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="850.2811454477612" y="336" width="1.085436721052306" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="850.2811454477612" y="360" width="1.085436721052306" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="850.2811454477612" y="384" width="1.085436721052306" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="850.2811454477612" y="408" width="1.085436721052306" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="852.3665821688134" y="264" width="16.614524144283635" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 1.47% (2974340 2974340 0.166703714 0.166703714)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="852.3665821688134" y="288" width="1.2538067659865528" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:172:calc 0.19% (394280 394280 0.021330009 0.021330009)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">calc</text>
+</g></svg>
+<svg class="func_g" x="852.3665821688134" y="312" width="1.2538067659865528" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 5.63% (394280 394280 0.639614794 2.8026194770000004)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="852.3665821688134" y="336" width="1.2538067659865528" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="852.3665821688134" y="360" width="1.2538067659865528" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="852.3665821688134" y="384" width="1.2538067659865528" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="854.6203889348" y="288" width="1.3250076932916564" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:180:get_DAG 0.19% (394280 394280 0.022003854 0.022003854)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">get_DAG</text>
+</g></svg>
+<svg class="func_g" x="854.6203889348" y="312" width="1.3250076932916564" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 16.22% (394280 394280 1.8420170200000001 2.091078629)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="854.6203889348" y="336" width="1.3250076932916564" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="854.6203889348" y="360" width="1.3250076932916564" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="854.6203889348" y="384" width="1.3250076932916564" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="856.9453966280915" y="288" width="4.567185126640709" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 0.46% (901460 901460 0.052687795 0.052687795)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="856.9453966280915" y="312" width="4.567185126640709" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="856.9453966280915" y="336" width="4.56718512664071" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="856.9453966280915" y="360" width="4.56718512664071" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="862.5125817547323" y="288" width="1" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:37:viterbi 0.15% (321080 321080 0.016842477 0.016842477)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">viterbi</text>
+</g></svg>
+<svg class="func_g" x="862.5125817547323" y="312" width="1" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59:__cut 18.96% (321080 321080 2.1536334360000002 3.5474048920000003)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut</text>
+</g></svg>
+<svg class="func_g" x="862.5125817547323" y="336" width="1" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 2.49% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="862.5125817547323" y="360" width="1" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="862.5125817547323" y="384" width="1" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="862.5125817547323" y="408" width="1" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="862.5125817547323" y="432" width="1" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="864.2922194763374" y="288" width="2.469193899596222" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:54:&lt;genexpr&gt; 0.29% (642160 642160 0.032832423 0.032832423)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;genexpr&gt;</text>
+</g></svg>
+<svg class="func_g" x="864.2922194763374" y="312" width="2.469193899596222" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.max&gt; 1.16% (963240 963240 0.131462763 0.164295186)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.max&gt;</text>
+</g></svg>
+<svg class="func_g" x="864.2922194763374" y="336" width="1.7743482337019723" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:172:calc 5.41% (2503940 2503940 0.613866063 2.116039117)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">calc</text>
+</g></svg>
+<svg class="func_g" x="864.2922194763374" y="360" width="1.7743482337019723" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 5.63% (394280 394280 0.639614794 2.8026194770000004)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="864.2922194763374" y="384" width="1.7743482337019723" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="864.2922194763374" y="408" width="1.7743482337019723" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="864.2922194763374" y="432" width="1.7743482337019723" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="867.7614133759336" y="288" width="1.2196929371635528" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59:__cut 0.18% (321080 321080 0.021007156000000003 0.021007156000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut</text>
+</g></svg>
+<svg class="func_g" x="867.7614133759336" y="312" width="1.2196929371635528" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 2.49% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="867.7614133759336" y="336" width="1.2196929371635528" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="867.7614133759336" y="360" width="1.2196929371635523" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="867.7614133759336" y="384" width="1.2196929371635523" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="867.7614133759336" y="408" width="1.2196929371635523" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="869.9811063130973" y="264" width="102.50184418109883" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.max&gt; 8.63% (5547260 5547260 0.9795406160000001 2.6460088560000004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.max&gt;</text>
+</g></svg>
+<svg class="func_g" x="869.9811063130973" y="288" width="81.77143535336829" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:172:calc 5.41% (2503940 2503940 0.613866063 2.116039117)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">calc</text>
+</g></svg>
+<svg class="func_g" x="869.9811063130973" y="312" width="81.77143535336829" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 5.63% (394280 394280 0.639614794 2.8026194770000004)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="869.9811063130973" y="336" width="81.77143535336829" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="869.9811063130973" y="360" width="81.77143535336828" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="869.9811063130973" y="384" width="81.77143535336828" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="952.7525416664655" y="288" width="19.73040882773055" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:37:viterbi 3.22% (3043320 3043320 0.365674553 0.529969739)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">viterbi</text>
+</g></svg>
+<svg class="func_g" x="952.7525416664655" y="312" width="19.73040882773055" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59:__cut 18.96% (321080 321080 2.1536334360000002 3.5474048920000003)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut</text>
+</g></svg>
+<svg class="func_g" x="952.7525416664655" y="336" width="19.73040882773055" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 2.49% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="952.7525416664655" y="360" width="19.73040882773055" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="952.7525416664655" y="384" width="19.73040882773055" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="952.7525416664655" y="408" width="19.73040882773055" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="952.7525416664655" y="432" width="19.73040882773055" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="973.482950494196" y="264" width="21.777113193876342" height="23"><g>
+    <title>~:0:&lt;built-in method math.log&gt; 1.90% (3680340 3680340 0.215562415 0.215562415)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method math.log&gt;</text>
+</g></svg>
+<svg class="func_g" x="973.482950494196" y="288" width="1.7087467153170888" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:172:calc 0.23% (394280 394280 0.025635557000000003 0.025635557000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">calc</text>
+</g></svg>
+<svg class="func_g" x="973.482950494196" y="312" width="1.7087467153170888" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 5.63% (394280 394280 0.639614794 2.8026194770000004)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="973.482950494196" y="336" width="1.7087467153170888" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="973.482950494196" y="360" width="1.7087467153170888" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="973.482950494196" y="384" width="1.7087467153170892" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="976.191697209513" y="288" width="19.068366478559255" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:177:&lt;genexpr&gt; 1.67% (3286060 3286060 0.189926858 0.189926858)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;genexpr&gt;</text>
+</g></svg>
+<svg class="func_g" x="976.191697209513" y="312" width="19.068366478559255" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.max&gt; 9.19% (5790000 5790000 1.043269385 1.502173054)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.max&gt;</text>
+</g></svg>
+<svg class="func_g" x="976.191697209513" y="336" width="15.048868614566317" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:172:calc 5.41% (2503940 2503940 0.613866063 2.116039117)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">calc</text>
+</g></svg>
+<svg class="func_g" x="976.191697209513" y="360" width="15.048868614566317" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 5.63% (394280 394280 0.639614794 2.8026194770000004)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="976.191697209513" y="384" width="15.048868614566317" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="976.191697209513" y="408" width="15.048868614566317" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="976.191697209513" y="432" width="15.048868614566317" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="992.2405658240791" y="336" width="3.019497863992939" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:37:viterbi 3.22% (3043320 3043320 0.365674553 0.529969739)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">viterbi</text>
+</g></svg>
+<svg class="func_g" x="992.2405658240791" y="360" width="3.019497863992939" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59:__cut 18.96% (321080 321080 2.1536334360000002 3.5474048920000003)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut</text>
+</g></svg>
+<svg class="func_g" x="992.2405658240791" y="384" width="3.019497863992939" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 2.49% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="992.2405658240791" y="408" width="3.019497863992939" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="992.2405658240791" y="432" width="3.019497863992939" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="992.2405658240791" y="456" width="3.019497863992939" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="992.2405658240791" y="480" width="3.019497863992939" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="996.2600636880725" y="264" width="25.578920754804408" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'list' objects&gt; 2.21% (3966620 3966620 0.25154269100000004 0.25154269100000004)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="996.2600636880725" y="288" width="20.246924121683872" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:180:get_DAG 1.77% (3286060 3286060 0.20108071800000002 0.20108071800000002)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">get_DAG</text>
+</g></svg>
+<svg class="func_g" x="996.2600636880725" y="312" width="20.246924121683872" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 16.22% (394280 394280 1.8420170200000001 2.091078629)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="996.2600636880725" y="336" width="20.246924121683872" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="996.2600636880725" y="360" width="20.246924121683872" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="996.2600636880725" y="384" width="20.246924121683872" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="1017.5069878097563" y="288" width="4.331996633120537" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:37:viterbi 0.44% (680560 680560 0.050461973 0.050461973)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">viterbi</text>
+</g></svg>
+<svg class="func_g" x="1017.5069878097563" y="312" width="4.331996633120537" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59:__cut 18.96% (321080 321080 2.1536334360000002 3.5474048920000003)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut</text>
+</g></svg>
+<svg class="func_g" x="1017.5069878097563" y="336" width="4.331996633120537" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 2.49% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1017.5069878097563" y="360" width="4.331996633120537" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="1017.5069878097563" y="384" width="4.331996633120537" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1017.5069878097563" y="408" width="4.331996633120537" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="1017.5069878097563" y="432" width="4.331996633120537" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="1022.8405561897823" y="264" width="119.07145217434996" height="23"><g>
+    <title>~:0:&lt;method 'get' of 'dict' objects&gt; 10.01% (13070600 13070600 1.136355252 1.136355252)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'get' of 'dict' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1022.8405561897823" y="288" width="27.421073639738562" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:177:&lt;genexpr&gt; 2.37% (3286060 3286060 0.26897681100000004 0.26897681100000004)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;genexpr&gt;</text>
+</g></svg>
+<svg class="func_g" x="1022.8405561897823" y="312" width="27.421073639738562" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.max&gt; 9.19% (5790000 5790000 1.043269385 1.502173054)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.max&gt;</text>
+</g></svg>
+<svg class="func_g" x="1022.8405561897823" y="336" width="21.728610084751875" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:172:calc 5.41% (2503940 2503940 0.613866063 2.116039117)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">calc</text>
+</g></svg>
+<svg class="func_g" x="1022.8405561897823" y="360" width="21.728610084751875" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 5.63% (394280 394280 0.639614794 2.8026194770000004)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="1022.8405561897823" y="384" width="21.728610084751875" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1022.8405561897823" y="408" width="21.728610084751875" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="1022.8405561897823" y="432" width="21.728610084751875" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="1045.5691662745342" y="336" width="4.69246355498669" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:37:viterbi 3.22% (3043320 3043320 0.365674553 0.529969739)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">viterbi</text>
+</g></svg>
+<svg class="func_g" x="1045.5691662745342" y="360" width="4.69246355498669" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59:__cut 18.96% (321080 321080 2.1536334360000002 3.5474048920000003)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut</text>
+</g></svg>
+<svg class="func_g" x="1045.5691662745342" y="384" width="4.69246355498669" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 2.49% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1045.5691662745342" y="408" width="4.69246355498669" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="1045.5691662745342" y="432" width="4.69246355498669" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1045.5691662745342" y="456" width="4.6924635549866895" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="1045.5691662745342" y="480" width="4.6924635549866895" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="1051.2616298295209" y="288" width="6.489564094523829" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 0.62% (333500 333500 0.070881174 0.070881174)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="1051.2616298295209" y="312" width="6.489564094523829" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1051.2616298295209" y="336" width="6.489564094523829" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="1051.2616298295209" y="360" width="6.489564094523829" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="1058.7511939240449" y="288" width="83.16081444008756" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:37:viterbi 7.01% (9451040 9451040 0.796497267 0.796497267)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">viterbi</text>
+</g></svg>
+<svg class="func_g" x="1058.7511939240449" y="312" width="83.16081444008756" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:59:__cut 18.96% (321080 321080 2.1536334360000002 3.5474048920000003)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut</text>
+</g></svg>
+<svg class="func_g" x="1058.7511939240449" y="336" width="83.16081444008756" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 2.49% (1072500 1072500 0.282828332 3.85124038)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1058.7511939240449" y="360" width="83.16081444008756" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="1058.7511939240449" y="384" width="83.16081444008756" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1058.7511939240449" y="408" width="83.16081444008756" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="1058.7511939240449" y="432" width="83.16081444008756" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="1142.9120083641324" y="264" width="31.391688825947014" height="23"><g>
+    <title>~:0:&lt;method 'match' of 're.Pattern' objects&gt; 2.70% (2203380 2203380 0.306554681 0.306554681)</title>
+    <rect height="100%" width="100%" fill="rgb(214, 214, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'match' of 're.Pattern' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1142.9120083641324" y="288" width="18.03544695654753" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 1.59% (1240040 1240040 0.180151316 0.180151316)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1142.9120083641324" y="312" width="18.035446956547535" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="1142.9120083641324" y="336" width="18.035446956547535" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="1161.9474553206799" y="288" width="12.356241869399483" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 1.11% (963340 963340 0.12640336500000002 0.12640336500000002)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1161.9474553206799" y="312" width="12.356241869399483" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="1161.9474553206799" y="336" width="12.356241869399483" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1161.9474553206799" y="360" width="12.356241869399483" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="1161.9474553206799" y="384" width="12.356241869399483" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="1175.3036971900792" y="264" width="23.696302809920727" height="23"><g>
+    <title>~:0:&lt;method 'split' of 're.Pattern' objects&gt; 2.06% (1357740 1357740 0.23372561000000003 0.23372561000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'split' of 're.Pattern' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1175.3036971900792" y="288" width="10.427899033358324" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 0.95% (394300 394300 0.108153544 0.108153544)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1175.3036971900792" y="312" width="10.427899033358324" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="1175.3036971900792" y="336" width="10.427899033358324" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="1186.7315962234375" y="288" width="12.2684037765624" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/finalseg/__init__.py:85:cut 1.11% (963440 963440 0.125572066 0.125572066)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1186.7315962234375" y="312" width="12.2684037765624" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:249:__cut_DAG 4.07% (1072880 1072880 0.462637332 4.630993243000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__cut_DAG</text>
+</g></svg>
+<svg class="func_g" x="1186.7315962234375" y="336" width="12.2684037765624" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:289:cut 5.92% (1954160 1954160 0.671777556 10.320037874)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="1186.7315962234375" y="360" width="12.2684037765624" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/baseline/.venv/lib/python3.14/site-packages/jieba/__init__.py:356:lcut 5.14% (2055960 2055960 0.583317776 11.191669097)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="1186.7315962234375" y="384" width="12.2684037765624" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 1.35% (20 20 0.153101864 11.344770961)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+</svg>

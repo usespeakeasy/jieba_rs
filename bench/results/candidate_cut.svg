@@ -1,0 +1,78 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="216"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+    .func_g:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+</style>
+<svg class="func_g" x="0.0" y="72" width="1198.9802896920485" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 100.00% (1 1 0.007954583000000001 0.8092282500000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="48" width="1187.1846772517765" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/candidate/.venv/lib/python3.14/site-packages/jieba/__init__.py:320:lcut 99.02% (20 20 0.08322953100000001 0.801273667)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="24" width="1063.766103171703" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/candidate/.venv/lib/python3.14/site-packages/jieba/__init__.py:299:cut 88.73% (2055960 2055960 0.058531423000000006 0.718044136)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="0.041773930582520685" y="0" width="976.9298384066398" height="23"><g>
+    <title>~:0:&lt;method 'cut' of 'builtins.RustTokenizer' objects&gt; 81.49% (20 20 0.6594845420000001 0.6594845420000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'cut' of 'builtins.RustTokenizer' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.03732680347247917" y="120" width="85.79449083448067" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/candidate/.venv/lib/python3.14/site-packages/jieba/__init__.py:299:cut 7.23% (2055960 2055960 0.058531423000000006 0.718044136)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="0.03732680347247917" y="144" width="85.79449083448067" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/candidate/.venv/lib/python3.14/site-packages/jieba/__init__.py:320:lcut 7.23% (2055960 2055960 0.058531423000000006 0.718044136)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="0.03732680347247917" y="168" width="85.79449083448068" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 10.28% (20 20 0.08322953100000001 0.801273667)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="86.83181763795314" y="120" width="122.41857408007361" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/candidate/.venv/lib/python3.14/site-packages/jieba/__init__.py:320:lcut 10.28% (20 20 0.08322953100000001 0.801273667)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="86.83181763795314" y="144" width="122.41857408007361" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 10.28% (20 20 0.08322953100000001 0.801273667)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="210.25039171802675" y="120" width="10.795612440271881" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 0.98% (1 1 0.007954583000000001 0.8092282500000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+<svg class="func_g" x="222.05045128540868" y="120" width="976.9298384066398" height="23"><g>
+    <title>~:0:&lt;method 'cut' of 'builtins.RustTokenizer' objects&gt; 81.49% (20 20 0.6594845420000001 0.6594845420000001)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'cut' of 'builtins.RustTokenizer' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="222.05045128540868" y="144" width="976.9298384066398" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/candidate/.venv/lib/python3.14/site-packages/jieba/__init__.py:299:cut 81.49% (20 20 0.6594845420000001 0.6594845420000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">cut</text>
+</g></svg>
+<svg class="func_g" x="222.05045128540868" y="168" width="976.9298384066398" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/candidate/.venv/lib/python3.14/site-packages/jieba/__init__.py:320:lcut 7.23% (2055960 2055960 0.058531423000000006 0.718044136)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">lcut</text>
+</g></svg>
+<svg class="func_g" x="222.05045128540868" y="192" width="976.9298384066398" height="23"><g>
+    <title>/Users/matt/code/jieba-rs/bench/cpu_profile.py:35:run 10.28% (20 20 0.08322953100000001 0.801273667)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">run</text>
+</g></svg>
+</svg>

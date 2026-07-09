@@ -1,0 +1,16 @@
+[package]
+name = "jieba-py"
+description = "PyO3 bindings for the jieba-rs Python package"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+
+[lib]
+name = "_rustjieba"
+crate-type = ["cdylib"]
+
+[dependencies]
+jieba-core = { path = "../jieba-core" }
+pyo3 = { version = "0.23", features = ["abi3-py311", "extension-module"] }

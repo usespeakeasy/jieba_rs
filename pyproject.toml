@@ -1,0 +1,29 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "jieba-rs"
+version = "0.42.1"
+description = "Rust-powered Chinese segmentation library exposed as jieba_rs"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "jieba-rs contributors" }]
+keywords = ["chinese", "segmentation", "nlp", "jieba", "tokenizer"]
+
+[project.urls]
+Homepage = "https://github.com/fxsjy/jieba"
+
+[tool.maturin]
+manifest-path = "crates/jieba-py/Cargo.toml"
+python-source = "python"
+module-name = "jieba_rs._rustjieba"
+include = [{ path = "python/jieba_rs/data/*", format = ["sdist", "wheel"] }]
+
+[dependency-groups]
+dev = ["pytest>=8", "maturin>=1.7", "psutil>=5.9"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

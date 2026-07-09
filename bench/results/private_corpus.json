@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "machine": {
+    "system": "Darwin",
+    "release": "25.5.0",
+    "architecture": "arm64",
+    "cpu": "Apple M5 Max",
+    "python": "3.11.15"
+  },
+  "libraries": {
+    "jieba": "0.42.1",
+    "jieba_rs": "0.42.1"
+  },
+  "workload": {
+    "description": "private real-world Chinese line corpus",
+    "case_count": 1633,
+    "character_count": 9471
+  },
+  "methodology": {
+    "warmups": 2,
+    "measured_runs": 21,
+    "process_isolation": "fresh process per library and operation across three interleaved rounds"
+  },
+  "correctness": {
+    "all_equal": true,
+    "compared_operations": [
+      "cut",
+      "cut_no_hmm",
+      "cut_all",
+      "cut_for_search",
+      "tokenize",
+      "posseg"
+    ]
+  },
+  "results": {
+    "import": {
+      "jieba_median_ms": 107.589,
+      "jieba_p90_ms": 116.73,
+      "jieba_rs_median_ms": 4.766,
+      "jieba_rs_p90_ms": 5.002,
+      "speedup": 22.574
+    },
+    "initialize": {
+      "jieba_median_ms": 201.451,
+      "jieba_p90_ms": 212.846,
+      "jieba_rs_median_ms": 84.597,
+      "jieba_rs_p90_ms": 103.725,
+      "speedup": 2.381
+    },
+    "cut": {
+      "jieba_median_ms": 9.904,
+      "jieba_p90_ms": 10.242,
+      "jieba_rs_median_ms": 2.8,
+      "jieba_rs_p90_ms": 3.588,
+      "speedup": 3.537,
+      "jieba_chars_per_s": 956280,
+      "jieba_rs_chars_per_s": 3382500,
+      "jieba_lines_per_s": 164883,
+      "jieba_rs_lines_per_s": 583214
+    },
+    "cut_no_hmm": {
+      "jieba_median_ms": 6.927,
+      "jieba_p90_ms": 7.159,
+      "jieba_rs_median_ms": 2.402,
+      "jieba_rs_p90_ms": 2.719,
+      "speedup": 2.884,
+      "jieba_chars_per_s": 1367259,
+      "jieba_rs_chars_per_s": 3942964,
+      "jieba_lines_per_s": 235744,
+      "jieba_rs_lines_per_s": 679850
+    },
+    "cut_all": {
+      "jieba_median_ms": 4.095,
+      "jieba_p90_ms": 4.265,
+      "jieba_rs_median_ms": 1.807,
+      "jieba_rs_p90_ms": 2.281,
+      "speedup": 2.266,
+      "jieba_chars_per_s": 2312821,
+      "jieba_rs_chars_per_s": 5241284,
+      "jieba_lines_per_s": 398779,
+      "jieba_rs_lines_per_s": 903708
+    },
+    "cut_for_search": {
+      "jieba_median_ms": 10.571,
+      "jieba_p90_ms": 12.596,
+      "jieba_rs_median_ms": 2.869,
+      "jieba_rs_p90_ms": 3.241,
+      "speedup": 3.685,
+      "jieba_chars_per_s": 895942,
+      "jieba_rs_chars_per_s": 3301150,
+      "jieba_lines_per_s": 154479,
+      "jieba_rs_lines_per_s": 569188
+    },
+    "tokenize": {
+      "jieba_median_ms": 10.574,
+      "jieba_p90_ms": 12.07,
+      "jieba_rs_median_ms": 3.034,
+      "jieba_rs_p90_ms": 3.611,
+      "speedup": 3.485,
+      "jieba_chars_per_s": 895688,
+      "jieba_rs_chars_per_s": 3121622,
+      "jieba_lines_per_s": 154435,
+      "jieba_rs_lines_per_s": 538233
+    },
+    "posseg": {
+      "jieba_median_ms": 87.833,
+      "jieba_p90_ms": 92.469,
+      "jieba_rs_median_ms": 5.602,
+      "jieba_rs_p90_ms": 6.036,
+      "speedup": 15.679,
+      "jieba_chars_per_s": 107830,
+      "jieba_rs_chars_per_s": 1690646,
+      "jieba_lines_per_s": 18592,
+      "jieba_rs_lines_per_s": 291503
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[workspace]
+members = ["crates/jieba-core", "crates/jieba-py"]
+resolver = "2"
+
+[workspace.package]
+version = "0.42.1"
+edition = "2021"
+license = "MIT"
+rust-version = "1.75"
+repository = "https://github.com/fxsjy/jieba-rs"
+
+[profile.release]
+lto = true
+codegen-units = 1

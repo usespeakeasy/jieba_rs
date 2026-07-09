@@ -1,0 +1,20 @@
+/target
+**/target
+.venv/
+__pycache__/
+*.pyc
+dist/
+*.so
+*.pyd
+.pytest_cache/
+reference/jieba/
+bench/*/.venv/
+
+bench/results/*.prof
+bench/results/*.svg
+!bench/results/baseline_cut.svg
+!bench/results/candidate_cut.svg
+
+# Private benchmark corpus source and generated fixtures must stay local.
+fixtures/corpus/real_world_zh_cn.txt
+fixtures/golden/real_world_zh_cn.json
