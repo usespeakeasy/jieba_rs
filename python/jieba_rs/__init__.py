@@ -34,7 +34,7 @@ _IDF_PATH = os.path.join(_DATA_DIR, "idf.txt")
 
 log_console = logging.StreamHandler(sys.stderr)
 default_logger = logging.getLogger(__name__)
-default_logger.setLevel(logging.DEBUG)
+default_logger.setLevel(logging.WARNING)
 default_logger.addHandler(log_console)
 
 pool = None
