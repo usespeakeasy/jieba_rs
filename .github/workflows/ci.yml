@@ -14,7 +14,7 @@ jobs:
         python-version: ["3.11", "3.12", "3.13"]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.4.0
 
       - name: Install Rust
         uses: dtolnay/rust-toolchain@stable
@@ -22,7 +22,7 @@ jobs:
           components: rustfmt, clippy
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v5.4.2
 
       - name: Set Python version
         run: echo "${{ matrix.python-version }}" > .python-version
@@ -48,8 +48,8 @@ jobs:
   build-wheel:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v5
+      - uses: actions/checkout@v4.4.0
+      - uses: astral-sh/setup-uv@v5.4.2
       - name: Build wheel + sdist
         run: uv build
       - name: Smoke test wheel in isolated env
@@ -58,7 +58,7 @@ jobs:
           uv run --isolated --no-project --with "$WHEEL" \
             python -c "import jieba_rs, jieba_rs.finalseg, jieba_rs.analyse.tfidf; assert jieba_rs.lcut('我来到北京清华大学') == ['我','来到','北京','清华大学']; assert type(jieba_rs.cut('北京')).__name__ == 'generator'; print('ok')"
           uv run --isolated --no-project --with "$WHEEL" python -m jieba_rs --help
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4.6.2
         with:
           name: dist
           path: dist/
