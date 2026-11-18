@@ -7,7 +7,7 @@ workflows:
         - 'actions/checkout@v4.4.0'
         - 'actions/upload-artifact@v4.6.2'
         - 'astral-sh/setup-uv@v5.4.2'
-        - 'dtolnay/rust-toolchain@stable'
+        - 'dtolnay/rust-toolchain@v1'
     '.github/workflows/verify-lockfile.yml':
         - 'actions/checkout@v7.0.1'
 dependencies:
@@ -31,8 +31,8 @@ dependencies:
         commit: 'sha1-d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86'
         owner_id: 115962839
         repo_id: 846733598
-    'dtolnay/rust-toolchain@stable':
-        ref: 'stable'
-        commit: 'sha1-b725eda525362e7cf34af9a7243cac1e3f01a7ec'
+    'dtolnay/rust-toolchain@v1':
+        ref: 'v1'
+        commit: 'sha1-683b588c487a69d01f6c6ddf40f036ff682cc2c8'
         owner_id: 1940490
         repo_id: 260749683
